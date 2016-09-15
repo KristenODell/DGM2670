@@ -31,6 +31,4 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
- git rm -r --cached .
- git add .
 *.DS_Store
