@@ -5,13 +5,14 @@ public class ArraysAndLists : MonoBehaviour
 {
     //Pokemon Array List
     public GameObject[] pokemon;
+    public int donuts = 12;
 
     void Start()
     {
         pokemon = GameObject.FindGameObjectsWithTag("Pokemon");
     }
 
-    void OnTriggerEnter()
+    public void OnTriggerEnter()
     {
         for (int i = 0; i < pokemon.Length; i++)
         {
